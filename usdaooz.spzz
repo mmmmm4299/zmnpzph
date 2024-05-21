@@ -1,0 +1,4 @@
+
+if exist vospzz.spzz set /p vopzz= < vospzz.spzz
+if not "1.0" == "%vopzz%" (
+echo update
